@@ -4,167 +4,48 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Nolan Fraser | Cybersecurity Portfolio</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: #0f172a;
-      color: #e5e7eb;
-      line-height: 1.6;
-    }
-
-    header {
-      padding: 60px 20px;
-      text-align: center;
-      background: linear-gradient(135deg, #0f172a, #1e3a8a);
-    }
-
-    header h1 {
-      font-size: 42px;
-      margin-bottom: 10px;
-    }
-
-    header p {
-      font-size: 18px;
-      color: #cbd5e1;
-    }
-
-    nav {
-      background: #020617;
-      padding: 15px;
-      text-align: center;
-    }
-
-    nav a {
-      color: #e5e7eb;
-      text-decoration: none;
-      margin: 0 15px;
-      font-weight: bold;
-    }
-
-    nav a:hover {
-      color: #38bdf8;
-    }
-
-    section {
-      max-width: 900px;
-      margin: auto;
-      padding: 50px 20px;
-    }
-
-    h2 {
-      color: #38bdf8;
-      border-bottom: 2px solid #334155;
-      padding-bottom: 10px;
-    }
-
-    .card {
-      background: #1e293b;
-      padding: 25px;
-      margin: 20px 0;
-      border-radius: 12px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
-    }
-
-    .skills span {
-      display: inline-block;
-      background: #334155;
-      padding: 8px 12px;
-      margin: 6px;
-      border-radius: 20px;
-    }
-
-    footer {
-      text-align: center;
-      padding: 25px;
-      background: #020617;
-      color: #94a3b8;
-    }
-
-    a {
-      color: #38bdf8;
-    }
-  </style>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+<nav class="navbar">
+  <div class="nav-container">
+    <a class="logo" href="index.html">Nolan<span>Fraser</span></a>
+    <ul class="nav-links">
+      <li><a href="about.html" >About</a></li>
+      <li><a href="skills.html" >Skills</a></li>
+      <li><a href="projects.html" >Projects</a></li>
+      <li><a href="contact.html" >Contact</a></li>
+    </ul>
+  </div>
+</nav>
 
-  <header>
-    <h1>Nolan Fraser</h1>
-    <p>Cybersecurity Student | Digital Portfolio | Future Security Professional</p>
-  </header>
-
-  <nav>
-    <a href="#about">About</a>
-    <a href="#skills">Skills</a>
-    <a href="#projects">Projects</a>
-    <a href="#contact">Contact</a>
-  </nav>
-
-  <section id="about">
-    <h2>About Me</h2>
-    <div class="card">
-      <p>
-        Hello, my name is Nolan Fraser. I am interested in cybersecurity, technology,
-        and protecting systems from cyber threats. This portfolio highlights my skills,
-        class projects, and growth as I work toward a career in cybersecurity.
-      </p>
+<header class="hero">
+  <div class="hero-card">
+    <div class="hero-text">
+      <div class="badge">Cybersecurity Student | Digital Portfolio</div>
+      <h1>Hi, I'm <span>Nolan Fraser</span>.</h1>
+      <p>I am building a career in cybersecurity by learning security frameworks, risk management, secure systems, and hands-on technical skills.</p>
+      <div class="hero-buttons">
+        <a class="btn btn-primary" href="projects.html">View Projects</a>
+        <a class="btn" href="contact.html">Contact Me</a>
+      </div>
     </div>
-  </section>
-
-  <section id="skills">
-    <h2>Skills</h2>
-    <div class="card skills">
-      <span>Cybersecurity</span>
-      <span>Risk Assessment</span>
-      <span>NIST Framework</span>
-      <span>PCI DSS</span>
-      <span>Network Security</span>
-      <span>Security Policies</span>
-      <span>GitHub Pages</span>
-      <span>HTML & CSS</span>
+    <div class="status-card">
+      <h3>Portfolio Focus</h3>
+      <p>This site highlights my cybersecurity growth, coursework, projects, and professional goals.</p>
+      <ul class="status-list">
+        <li>Security frameworks and compliance</li>
+        <li>Risk assessments and policies</li>
+        <li>Threat research and analysis</li>
+        <li>GitHub Pages website hosting</li>
+      </ul>
     </div>
-  </section>
+  </div>
+</header>
 
-  <section id="projects">
-    <h2>Projects</h2>
-
-    <div class="card">
-      <h3>Cybersecurity Risk Assessment</h3>
-      <p>
-        Created a risk assessment that identified assets, threats, likelihood,
-        impact, and recommended security controls.
-      </p>
-    </div>
-
-    <div class="card">
-      <h3>Security Policy Project</h3>
-      <p>
-        Developed cybersecurity policies covering access control, password security,
-        and system development practices.
-      </p>
-    </div>
-
-    <div class="card">
-      <h3>Compliance Case Study</h3>
-      <p>
-        Analyzed a business case study using frameworks such as NIST, PCI DSS,
-        and cybersecurity best practices.
-      </p>
-    </div>
-  </section>
-
-  <section id="contact">
-    <h2>Contact</h2>
-    <div class="card">
-      <p>Email: your-email@example.com</p>
-      <p>GitHub: <a href="https://github.com/SharpI" target="_blank">github.com/SharpI</a></p>
-      <p>LinkedIn: Add your LinkedIn link here</p>
-    </div>
-  </section>
-
-  <footer>
-    <p>© 2026 Nolan Fraser. All rights reserved.</p>
-  </footer>
-
+<footer>
+  <p>&copy; 2026 Nolan Fraser. Built with GitHub Pages.</p>
+</footer>
+<script src="script.js"></script>
 </body>
 </html>
