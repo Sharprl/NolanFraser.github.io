@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Resume | Nolan Fraser</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+<nav class="navbar">
+  <div class="nav-container">
+    <a class="logo" href="./index.html">Nolan<span>Fraser</span></a>
+    <ul class="nav-links">
+      <li><a href="./index.html">Home</a></li>
+      <li><a href="./about.html">About</a></li>
+      <li><a href="./skills.html">Skills</a></li>
+      <li><a href="./projects.html">Projects</a></li>
+      <li><a href="./resume.html" class="active">Resume</a></li>
+      <li><a href="./contact.html">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<main>
+  <section class="page-header">
+    <h1>My <span>Resume</span></h1>
+    <p>View my current resume directly on this page or download a copy for review.</p>
+    <div class="hero-buttons">
+      <a class="btn btn-primary" href="./assets/resume.pdf" target="_blank" rel="noopener noreferrer">View PDF</a>
+      <a class="btn" href="./assets/resume.pdf" download>Download PDF</a>
+    </div>
+  </section>
+
+  <section class="resume-viewer card">
+    <iframe
+      title="Nolan Fraser Resume"
+      src="./assets/resume.pdf"
+      loading="lazy"
+    ></iframe>
+    <p class="resume-fallback">
+      If the resume preview does not load, use
+      <a href="./assets/resume.pdf" target="_blank" rel="noopener noreferrer">this direct PDF link</a>.
+    </p>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2026 Nolan Fraser. Built with GitHub Pages.</p>
+</footer>
+<script src="./script.js"></script>
+</body>
+</html>
